@@ -1,6 +1,6 @@
 <?php
 
-namespace Usmonaliyev\LaravelTelegramNotifier\Utils;
+namespace Weldon\LaravelTelegramNotifier\Utils;
 
 class ErrorMessageBuilder
 {

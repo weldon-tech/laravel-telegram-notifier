@@ -1,6 +1,6 @@
 <?php
 
-namespace Usmonaliyev\LaravelTelegramNotifier\Telegram;
+namespace Weldon\LaravelTelegramNotifier\Telegram;
 
 use CURLFile;
 

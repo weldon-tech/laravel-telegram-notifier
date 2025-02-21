@@ -1,18 +1,18 @@
 {
-    "name": "usmonaliyev/laravel-telegram-notifier",
+    "name": "weldon/laravel-telegram-notifier",
     "description": "This package send errors and messages to your telegram group or chat.",
     "keywords": ["laravel", "telegram", "notifier", "error"],
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Usmonaliyev\\LaravelTelegramNotifier\\": "src/"
+            "Weldon\\LaravelTelegramNotifier\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Temur5319436",
-            "email": "temur5319436@gmail.com"
+            "name": "Weldon",
+            "email": "info.weldonuz@gmail.com"
         }
     ],
     "require": {
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Usmonaliyev\\LaravelTelegramNotifier\\LaravelTelegramNotifierServiceProvider"
+                "Weldon\\LaravelTelegramNotifier\\LaravelTelegramNotifierServiceProvider"
             ]
         }
     }

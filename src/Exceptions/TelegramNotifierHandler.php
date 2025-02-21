@@ -1,11 +1,11 @@
 <?php
 
-namespace Usmonaliyev\LaravelTelegramNotifier\Exceptions;
+namespace Weldon\LaravelTelegramNotifier\Exceptions;
 
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Throwable;
-use Usmonaliyev\LaravelTelegramNotifier\TelegramNotifier;
+use Weldon\LaravelTelegramNotifier\TelegramNotifier;
 
 class TelegramNotifierHandler extends ExceptionHandler
 {

@@ -3,10 +3,10 @@
 
 This package send bugs and messages to your telegram group or chat. 
 
-![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/usmonaliyev/laravel-telegram-notifier/php)
-![Total Downloads](https://img.shields.io/packagist/dt/usmonaliyev/laravel-telegram-notifier.svg)
-![Latest Version on Packagist](https://img.shields.io/packagist/v/usmonaliyev/laravel-telegram-notifier.svg)
-![Packagist License](https://img.shields.io/packagist/l/usmonaliyev/laravel-telegram-notifier)
+![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/weldon/laravel-telegram-notifier/php)
+![Total Downloads](https://img.shields.io/packagist/dt/weldon/laravel-telegram-notifier.svg)
+![Latest Version on Packagist](https://img.shields.io/packagist/v/weldon/laravel-telegram-notifier.svg)
+![Packagist License](https://img.shields.io/packagist/l/weldon/laravel-telegram-notifier)
 
 ## Screenshots
 
@@ -17,12 +17,12 @@ This package send bugs and messages to your telegram group or chat.
 Install this project with composer
 
 ```bash
-composer require usmonaliyev/laravel-telegram-notifier
+composer require weldon/laravel-telegram-notifier
 ```
 
 To control it, create config file
 ```bash
-php artisan vendor:publish --provider="Usmonaliyev\LaravelTelegramNotifier\LaravelTelegramNotifierServiceProvider"
+php artisan vendor:publish --provider="Weldon\LaravelTelegramNotifier\LaravelTelegramNotifierServiceProvider"
 ```
 
 Add your bot token and receiver chat id to `.env` file.
@@ -47,7 +47,7 @@ If you want to send custom message, there is `notify` function:
 ```php
 <?php
 
-use Usmonaliyev\LaravelTelegramNotifier\Facades\TelegramNotifier;
+use Weldon\LaravelTelegramNotifier\Facades\TelegramNotifier;
 
 TelegramNotifier::notify("There is your text")
 ```
@@ -57,7 +57,7 @@ Also, there is `error` function to send handled error:
 ```php
 <?php
 
-use Usmonaliyev\LaravelTelegramNotifier\Facades\TelegramNotifier;
+use Weldon\LaravelTelegramNotifier\Facades\TelegramNotifier;
 
 try {
     ...

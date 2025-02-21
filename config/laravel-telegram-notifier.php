@@ -1,8 +1,8 @@
 <?php
 
-use Usmonaliyev\LaravelTelegramNotifier\Utils\MessageSection;
-use Usmonaliyev\LaravelTelegramNotifier\Utils\ErrorMessageBuilder;
-use Usmonaliyev\LaravelTelegramNotifier\Utils\RequestMessageBuilder;
+use Weldon\LaravelTelegramNotifier\Utils\MessageSection;
+use Weldon\LaravelTelegramNotifier\Utils\ErrorMessageBuilder;
+use Weldon\LaravelTelegramNotifier\Utils\RequestMessageBuilder;
 
 return [
 
@@ -41,7 +41,7 @@ return [
      * Username of responsible telegram user
      *
      * It must start with @ symbol.
-     * @someone @usmonaliyev99
+     * @someone @Weldon
      */
     "responsible" => env("TELEGRAM_NOTIFIER_RESPONSIBLE", null),
 

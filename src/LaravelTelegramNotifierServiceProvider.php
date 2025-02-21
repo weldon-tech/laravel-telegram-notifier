@@ -1,11 +1,11 @@
 <?php
 
-namespace Usmonaliyev\LaravelTelegramNotifier;
+namespace Weldon\LaravelTelegramNotifier;
 
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Support\ServiceProvider;
-use Usmonaliyev\LaravelTelegramNotifier\Commands\NotifyCommand;
-use Usmonaliyev\LaravelTelegramNotifier\Exceptions\TelegramNotifierHandler;
+use Weldon\LaravelTelegramNotifier\Commands\NotifyCommand;
+use Weldon\LaravelTelegramNotifier\Exceptions\TelegramNotifierHandler;
 
 /**
  * class LaravelTelegramNotifierServiceProvider

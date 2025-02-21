@@ -1,17 +1,17 @@
 <?php
 
-namespace Usmonaliyev\LaravelTelegramNotifier;
+namespace Weldon\LaravelTelegramNotifier;
 
 use Error;
 use Exception;
 use Throwable;
-use Usmonaliyev\LaravelTelegramNotifier\Telegram\Telegram;
-use Usmonaliyev\LaravelTelegramNotifier\Utils\MessageSection;
+use Weldon\LaravelTelegramNotifier\Telegram\Telegram;
+use Weldon\LaravelTelegramNotifier\Utils\MessageSection;
 
 /**
  * class TelegramNotifier
  *
- * @author Usmonaliyev Temur
+ * @author Weldon
  */
 class TelegramNotifier
 {

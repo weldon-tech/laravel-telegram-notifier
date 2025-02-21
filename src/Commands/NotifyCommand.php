@@ -1,6 +1,6 @@
 <?php
 
-namespace Usmonaliyev\LaravelTelegramNotifier\Commands;
+namespace Weldon\LaravelTelegramNotifier\Commands;
 
 use Error;
 use Illuminate\Console\Command;
